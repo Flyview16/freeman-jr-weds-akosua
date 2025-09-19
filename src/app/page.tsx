@@ -5,14 +5,22 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="w-full height flex text-center items-center justify-center parallax relative text-white">
+      <section className="w-full height flex text-center items-center justify-center parallax relative text-white">
         <h1 className="text-5xl relative z-10">Freeman Jr weds Akosua</h1>
-      </main>
+      </section>
 
-      <section className="flex-none w-full padding border-t-[0.1rem] border-black text-size text-center tracking-wide">
-        Hello! We are Freeman Osei-Tete Jr. and Akosua Nyamekye, and we are
-        getting married. The celebration of our union will occur in Living Word
-        A/G on December 20, 2025, and we would love for you to join us.
+      <section className="flex-none w-full brief-intro-padding border-t-[0.1rem] border-black text-size text-center tracking-wide">
+        With hearts full of joy, Freeman Osei-Tete Jr. and Akosua Nyamekye
+        invite you to witness and celebrate their union in marriage. Join us on
+        December 20, 2025, at Living Word Assemblies of God as we begin our
+        journey together as one.
+      </section>
+
+      <section className="flex flex-col w-full link-boxes-padding text-size text-center tracking-wide downward-curve text-white space-y-10">
+        <div className="bg-white w-full flex-1 rounded">A</div>
+
+        <div className="bg-white w-full flex-1 rounded">B</div>
+        <div className="bg-white w-full flex-1 rounded">C</div>
       </section>
 
       <footer className="flex text-center items-center justify-center flex-none w-full text-lg tracking-wide border-[0.1rem] border-red-500">
