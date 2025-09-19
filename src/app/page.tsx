@@ -9,18 +9,10 @@ export default function Home() {
         <h1 className="text-5xl relative z-10">Freeman Jr weds Akosua</h1>
       </main>
 
-      <section className="flex-none w-full p-8 border-t-[0.1rem] border-black">
-        <p className="text-5xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
-          dolor sit amet, consectetur adipiscing elit.. Lorem ipsum dolor sit
-          amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.. Lorem
-          ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor
-          sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit.
-        </p>
+      <section className="flex-none w-full padding border-t-[0.1rem] border-black text-size text-center tracking-wide">
+        Hello! We are Freeman Osei-Tete Jr. and Akosua Nyamekye, and we are
+        getting married. The celebration of our union will occur in Living Word
+        A/G on December 20, 2025, and we would love for you to join us.
       </section>
 
       <footer className="flex text-center items-center justify-center flex-none w-full text-lg tracking-wide border-[0.1rem] border-red-500">

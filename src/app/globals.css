@@ -30,6 +30,17 @@ body {
   .height {
     height: 75vh;
   }
+
+  .text-size {
+    font-size: 1.25rem;
+  }
+
+  .padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -39,5 +50,16 @@ body {
 
   .height {
     height: 120vh;
+  }
+
+  .text-size {
+    font-size: 1.875rem;
+  }
+
+  .padding {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
