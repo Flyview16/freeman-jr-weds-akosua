@@ -13,7 +13,8 @@ body {
 }
 
 .parallax {
-  background-image: url("/test-image.jpg");
+  /* background-image: url("/test-image.jpg"); */
+  background-color: black;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
