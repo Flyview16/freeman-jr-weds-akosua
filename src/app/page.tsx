@@ -5,7 +5,7 @@ export default function Home() {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <main className="w-full h-[120vh] flex items-center justify-center parallax relative text-white">
+      <main className="w-full height flex text-center items-center justify-center parallax relative text-white">
         <h1 className="text-5xl relative z-10">Freeman Jr weds Akosua</h1>
       </main>
 

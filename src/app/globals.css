@@ -20,5 +20,24 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  clip-path: ellipse(150% 100% at 50% 0%);
+}
+
+@media (min-width: 0px) {
+  .parallax {
+    clip-path: ellipse(200% 100% at 50% 0%);
+  }
+
+  .height {
+    height: 75vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .parallax {
+    clip-path: ellipse(150% 100% at 50% 0%);
+  }
+
+  .height {
+    height: 120vh;
+  }
 }
