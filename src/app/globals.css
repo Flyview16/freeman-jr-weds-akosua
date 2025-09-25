@@ -13,7 +13,7 @@ body {
   font-family: var(--font-parisienne);
 }
 
-/* Parallax Section */
+/* Curves Section */
 .parallax {
   /* background-image: url("/test-image.jpg"); */
   background-color: black;
@@ -27,6 +27,10 @@ body {
 .downward-curve {
   background-color: black;
   clip-path: ellipse(150% 100% at 50% 100%);
+}
+
+.curve-left {
+  clip-path: ellipse(80% 100% at 90% 50%);
 }
 
 /* Media Queries */
@@ -44,16 +48,10 @@ body {
   }
 
   .brief-intro-padding {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
-  }
-
-  .link-boxes-padding {
-    padding: 5rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
   }
 }
 
@@ -71,8 +69,8 @@ body {
   }
 
   .brief-intro-padding {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     padding-left: 5rem;
     padding-right: 5rem;
   }
